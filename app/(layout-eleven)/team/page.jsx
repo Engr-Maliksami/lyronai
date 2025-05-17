@@ -1,6 +1,6 @@
 import AutoSlider from "@/components/common/auto-slider";
 import BreadCrumb from "@/components/common/Breadcrumb";
-import Faq from "@/components/home/home-five/faq";
+import Faq from "@/components/home/home-seven/faq";
 import TeamMembers from "@/components/team-page/TeamMembers";
 export const metadata = {
 	title: "Lyron  AI| Build Smart. Automate Fast. Earn Always.",
