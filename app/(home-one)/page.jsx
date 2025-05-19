@@ -9,19 +9,25 @@ import Services from "@/components/home/home-seven/services";
 import Testimonials from "@/components/home/home-seven/testimonials";
 import Advantages from "@/components/home/home-seven/advantages";
 import CreateAI from "@/components/home/home-seven/create-AI";
+import Templates from "@/components/Templates";
 
 function HomeSeven() {
 	return (
 		<>
 			<Hero />
+			<Templates/>
+			<Advantages/>
+			<CreateAI/>
 			<Features />
+
 			<AboutOne />
+			
 			{/* <Services /> */}
 			{/* <AboutTwo /> */}
-			<Advantages/>
+		
 			{/* <AboutThree /> */}
-			<Testimonials />
-			<CreateAI/>
+			{/* <Testimonials /> */}
+			
 			<Integrations />
 		
 		</>

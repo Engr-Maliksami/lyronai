@@ -120,7 +120,10 @@ function Career() {
 					<div className="collection-grid-item mix col-md-6  business consultancy">
 						<div className="sofax-career-content-wrapper ">
 							<div className="sofax-career-content-autohre-wrap">
-							
+								<div className="sofax-career-content-data">
+									<h4>Real Estate Inquiry Bot</h4>
+									{/* <p>Full Time</p> */}
+								</div>
 								<div className="sofax-career-content-icon">
 									<a href="single-career.html">
 										<svg

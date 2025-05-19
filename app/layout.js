@@ -27,8 +27,7 @@ import "../public/css/main.css";
 import "../public/css/mobile-nav.css";
 
 export const metadata = {
-	title: "Sofax || Responsive Next.js Template",
-	description: "Sofax || Responsive Next.js Template",
+
 };
 export default function RootLayout({ children }) {
 	return (

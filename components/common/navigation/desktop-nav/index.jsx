@@ -5,26 +5,26 @@ import NavItem from "./NavItem";
 function DesktopMenu() {
 	return (
 		<DesktopNav>
-			<NavItem url="/">Home</NavItem>
-			<NavItem url="about-us">About</NavItem>
+			<NavItem url="/">Heim</NavItem>
+			<NavItem url="about-us">Um</NavItem>
 
-			<NavItem url="career">Templates</NavItem>
-
-
-		
+			<NavItem url="career">Vorlagen</NavItem>
 
 
 		
-<NavItem url="pricing">Pricing</NavItem>
 
-			<NavItem url="contact-us">Contact</NavItem>
 
-			<NavItem dropdown title="knowledge">
+		
+<NavItem url="pricing">Preise</NavItem>
+
+			<NavItem url="contact-us">Kontakt</NavItem>
+
+			<NavItem dropdown title="Wissen">
 				<Dropdown>
 					<DropdownItem url="blog">Blog</DropdownItem>
-					<DropdownItem url="guide">Guides</DropdownItem>
-					<DropdownItem url="webinar">Webinar's</DropdownItem>
-					<DropdownItem url="PrivacyPolicy">Privacy Policy</DropdownItem>
+					<DropdownItem url="guide">Führer</DropdownItem>
+					<DropdownItem url="webinar">Webinare</DropdownItem>
+					<DropdownItem url="PrivacyPolicy">Datenschutzrichtlinie</DropdownItem>
 
 
 					{/* <DropdownItem dropdown title="Blog">
