@@ -1,6 +1,6 @@
 import Icon from "@/public/images/v5/icon4.png";
 import Thumb from "@/public/images/v7/image2v7.png";
-import AdvantagesImg from "@/public/images/about/Complex.png";
+import AdvantagesImg from "@/public/images/about/complex.png";
 import Image from "next/image";
 import FadeInRight from "../../../animation/FadeInRight";
 
