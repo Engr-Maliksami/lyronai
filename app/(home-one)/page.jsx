@@ -34,6 +34,8 @@ function HomeSeven() {
 
 
 			<AboutOne />
+
+			{/* ok */}
 			
 			{/* <Services /> */}
 			{/* <AboutTwo /> */}
