@@ -13,7 +13,7 @@ import Templates from "@/components/Templates";
 import Enterprisesec from "@/components/home/home-seven/enterprisesec"
 import Integrationsec from "@/components/home/home-seven/integratoinsec";
 import Employeesec from "@/components/home/home-seven/employeesec";
-import Complex from "@/components/home/home-seven/Complex";
+import Complex from "@/components/home/home-seven/complex";
 
 
 
