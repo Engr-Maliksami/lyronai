@@ -9,8 +9,8 @@ function Advantages() {
     <section className="advantages-sec">
       <div className="container">
         <div className="row">
-          <div className="heading flex">
-            <h4>Vorteile der BOTfriends Al Agent Plattform</h4>
+          <div className="heading flex slider-custom-anim-left">
+            <h3>Vorteile der BOTfriends Al Agent Plattform</h3>
           </div>
 
           <div className="content mt-8"></div>

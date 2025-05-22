@@ -67,38 +67,30 @@ body {
   line-height: 30px;
 }
 
-
 /* v2 code */
 
-
-
-
-.content-left
-{
-  margin-top:2em;
+.content-left {
+  margin-top: 2em;
 }
 
-.hero-buttons{
+.hero-buttons {
   display: flex;
   align-items: center;
   gap: 24px;
   flex-wrap: wrap;
 }
 
-.bg-pink{
-
-  background:var(--accent-color) !important;
+.bg-pink {
+  background: var(--accent-color) !important;
 }
-
 
 .Hero-boxes {
   display: flex;
   align-item: center;
   justify-content: space-around;
-  margin-top:5em !important;
-  margin-bottom:3em;
+  margin-top: 5em !important;
+  margin-bottom: 3em;
 }
-
 
 .hero-box {
   background: #000;
@@ -106,14 +98,13 @@ body {
   border-radius: 1.25rem; /* rounded-xl (20px) */
   padding: 1.5rem; /* 24px padding */
   text-align: center;
-  color:#ffff;
+  color: #ffff;
   transition: all 0.3s ease;
-  width:30%;
+  width: 30%;
 }
 
-.hero-box h4{
-  color:#ffff ;
-
+.hero-box h4 {
+  color: #ffff;
 }
 
 .hero-box:hover {
@@ -121,45 +112,101 @@ body {
   transform: translateY(-4px);
 }
 
-.advantages-sec {
-  display: flex !important;
-  align-item:center;
-  justify-content:space-around;
-}
-.advantages-sec .content{
- margin-top:2em; 
- margin-bottom:2em;
+.Enterprisesec {
+  margin-top: 8em;
 }
 
-.about-sec{
-  margin-top:6em;
+.Enterprisesec .main-dec {
+  display: flex;
+  align-item: center;
+  justify-content: space-around;
+  margin-top: 1.5em;
+}
+
+.flow-chart {
+  margin-left: 12em;
+}
+
+.Integrationsec{
+margin-top:10em;
+}
+.Integrationsec .main-dec  {
+  margin-bottom:3em;
+}
+
+
+
+
+.Integrationsec .intgrationimg {
+  margin-left: 5em;
+}
+/* feature section css start here */
+.sofax-features-iconv7{
+  width:3em !important; }
+
+/* feature section css ends here */
+
+.advantages-sec {
+  display: flex !important;
+  align-item: center;
+  margin-top: 3em;
+  justify-content: space-between;
+}
+.advantages-sec .content {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+.createAI-sec {
+  display: flex !important;
+  align-item: center;
+  margin-top: 6em;
+  justify-content: space-between;
+}
+
+.createAI-sec .content {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.createAI-sec .img-sec {
+  width: 40rem;
+  display: flex;
+  margin-right: 0.1em;
+}
+
+.createAI-sec .img-sec img {
+  border-radius: 1em;
+}
+
+.about-sec {
+  margin-top: 6em;
 }
 .advantages-sec .img-sec {
   width: 40rem;
   display: flex;
 }
 
-.advantages-sec  .img-sec img{
-border-radius:1em;
-
+.advantages-sec .img-sec img {
+  border-radius: 1em;
 }
 
+.template-title {
+  display: flex;
+  flex-direction: column;
+  align-item: center;
+  justify-content: center;
+  margin: 5em;
+}
 
-.template-title{
-  display:flex;
-  flex-direction:column;
-  align-item:center;
-  justify-content:center;
-margin:5em;}
-
-.template-title p{
-margin:0 16em;}
+.template-title p {
+  margin: 0 16em;
+}
 .bot-grid {
   display: flex;
   justify-content: space-between;
   gap: 20px;
   flex-wrap: wrap;
-  margin:2em;
+  margin: 2em;
 }
 
 .bot-card {
@@ -175,8 +222,8 @@ margin:0 16em;}
 
 .bot-card:hover {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  color:#000 !important;
-  background:var(--accent-color) !important;
+  color: #000 !important;
+  background: var(--accent-color) !important;
 }
 
 .bot-card-header {
@@ -194,7 +241,7 @@ margin:0 16em;}
   display: inline-block;
   width: 36px;
   height: 36px;
-  
+
   text-align: center;
 }
 
@@ -218,12 +265,12 @@ margin:0 16em;}
   border-radius: 4px;
   font-size: 12px;
 }
-.bot-card-desc{
-  color:#000;
+.bot-card-desc {
+  color: #000;
 }
 
-.bot-card-desc:hover{
-  color:#000 !important;
+.bot-card-desc:hover {
+  color: #000 !important;
 }
 
 .bot-pagination {
@@ -250,24 +297,21 @@ margin:0 16em;}
 }
 
 .bot-dots .dot.active {
-  color: #8D3CB0;
+  color: #8d3cb0;
 }
 
 @media only screen and (max-width: 600px) {
-  .main-hero{
-    display:flex !important;
-    flex-wrap:wrap;
+  .main-hero {
+    display: flex !important;
+    flex-wrap: wrap;
   }
 
-  .Hero-boxes{
-    display:flex;
-    flex-wrap:no-wrap !important;
-    wdth:50% !important;
+  .Hero-boxes {
+    display: flex;
+    flex-wrap: no-wrap !important;
+    wdth: 50% !important;
   }
-
 }
-
-
 
 /* v2 code end */
 

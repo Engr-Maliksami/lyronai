@@ -10,6 +10,8 @@ import Testimonials from "@/components/home/home-seven/testimonials";
 import Advantages from "@/components/home/home-seven/advantages";
 import CreateAI from "@/components/home/home-seven/create-AI";
 import Templates from "@/components/Templates";
+import Enterprisesec from "@/components/home/home-seven/enterprisesec"
+import Integrationsec from "@/components/home/home-seven/integratoinsec";
 
 function HomeSeven() {
 	return (
@@ -17,8 +19,12 @@ function HomeSeven() {
 			<Hero />
 			<Templates/>
 			<Advantages/>
+			<Enterprisesec/>
 			<CreateAI/>
+
+			<Integrationsec/>
 			<Features />
+
 
 			<AboutOne />
 			

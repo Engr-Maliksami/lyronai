@@ -6,7 +6,7 @@ import FadeInRight from "../../../animation/FadeInRight";
 
 function CreateAI() {
   return (
-    <section className="advantages-sec">
+    <section className="createAI-sec">
       <div className="container">
         <div className="row">
           <div className="content mt-8"></div>
